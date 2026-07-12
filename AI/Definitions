@@ -1,0 +1,3 @@
+Harness: acts with llms to make it different from just a chatbot, does error checking and looks through a database
+
+Retrieval-Augmented Generation (RAG): AI ability to search up stuff past initial training data

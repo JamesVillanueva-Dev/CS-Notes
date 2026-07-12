@@ -1,0 +1,10 @@
+Bubble Sort
+
+Repeatedly swaps neighboring items if they are in the wrong order.
+
+Big O runtime:
+- Best: O(n)
+- Average: O(n^2)
+- Worst: O(n^2)
+
+Good for: learning sorting basics.

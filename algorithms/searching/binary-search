@@ -1,0 +1,10 @@
+Binary Search
+
+Checks the middle item, then repeatedly searches the half where the target could be.
+
+Big O runtime:
+- Best: O(1)
+- Average: O(log n)
+- Worst: O(log n)
+
+Good for: sorted lists.

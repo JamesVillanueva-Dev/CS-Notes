@@ -1,0 +1,10 @@
+Quicksort
+
+Splits the list around a pivot, then recursively sorts the smaller parts.
+
+Big O runtime:
+- Best: O(n log n)
+- Average: O(n log n)
+- Worst: O(n^2)
+
+Good for: fast general-purpose sorting.

@@ -1,0 +1,10 @@
+Merge Sort
+
+Splits the list in half, sorts each half, then merges them back together.
+
+Big O runtime:
+- Best: O(n log n)
+- Average: O(n log n)
+- Worst: O(n log n)
+
+Good for: predictable sorting time.

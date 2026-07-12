@@ -1,0 +1,10 @@
+Insertion Sort
+
+Builds a sorted section one item at a time by inserting each item into place.
+
+Big O runtime:
+- Best: O(n)
+- Average: O(n^2)
+- Worst: O(n^2)
+
+Good for: small lists or nearly sorted lists.

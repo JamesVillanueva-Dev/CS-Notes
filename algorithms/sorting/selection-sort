@@ -1,0 +1,10 @@
+Selection Sort
+
+Finds the smallest remaining item and moves it into the next sorted position.
+
+Big O runtime:
+- Best: O(n^2)
+- Average: O(n^2)
+- Worst: O(n^2)
+
+Good for: simple sorting practice.

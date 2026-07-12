@@ -1,0 +1,10 @@
+Linear Search
+
+Checks each item one by one until the target is found.
+
+Big O runtime:
+- Best: O(1)
+- Average: O(n)
+- Worst: O(n)
+
+Good for: unsorted lists.
