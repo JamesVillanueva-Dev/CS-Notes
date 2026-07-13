@@ -1,1 +1,19 @@
 Fast systems language, powerful, used in games and performance code, complicated and easy to misuse
+
+Common type sizes:
+
+| Type | Size |
+| --- | --- |
+| bool | usually 1 byte |
+| char | 1 byte |
+| wchar_t | 2 bytes on Windows, usually 4 bytes on Linux/macOS |
+| short | usually 2 bytes |
+| int | usually 4 bytes |
+| long | 4 bytes on Windows, usually 8 bytes on 64-bit Linux/macOS |
+| long long | usually 8 bytes |
+| float | usually 4 bytes |
+| double | usually 8 bytes |
+| long double | varies, often 8, 12, or 16 bytes |
+| pointer | 4 bytes on 32-bit systems, 8 bytes on 64-bit systems |
+
+Fixed-width types from <cstdint>, like int8_t, int16_t, int32_t, and int64_t, are exactly 1, 2, 4, and 8 bytes when available.

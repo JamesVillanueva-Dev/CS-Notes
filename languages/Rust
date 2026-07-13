@@ -1,1 +1,19 @@
 Fast systems language, memory safe, good for reliable code, harder to learn at first
+
+Common type sizes:
+
+| Type | Size |
+| --- | --- |
+| bool | 1 byte |
+| u8 / i8 | 1 byte |
+| u16 / i16 | 2 bytes |
+| u32 / i32 | 4 bytes |
+| u64 / i64 | 8 bytes |
+| u128 / i128 | 16 bytes |
+| usize / isize | 4 bytes on 32-bit systems, 8 bytes on 64-bit systems |
+| f32 | 4 bytes |
+| f64 | 8 bytes |
+| char | 4 bytes |
+| pointer/reference | 4 bytes on 32-bit systems, 8 bytes on 64-bit systems |
+
+Array size is element size times length. Struct and enum sizes can include padding and layout overhead.

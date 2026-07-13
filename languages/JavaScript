@@ -1,1 +1,22 @@
 Web language, runs in browsers and servers, flexible, has weird type behavior
+
+Common value sizes:
+
+| Type | Size |
+| --- | --- |
+| Number | 8 bytes for the IEEE 754 double value |
+| BigInt | variable size |
+| Boolean | engine-dependent |
+| String | usually 2 bytes per UTF-16 code unit, plus object overhead |
+| Symbol | engine-dependent |
+| Object / Array / Function | engine-dependent, includes object overhead |
+| null / undefined | engine-dependent |
+
+Typed array element sizes are fixed:
+
+| Typed array element | Size |
+| --- | --- |
+| Int8 / Uint8 / Uint8Clamped | 1 byte |
+| Int16 / Uint16 | 2 bytes |
+| Int32 / Uint32 / Float32 | 4 bytes |
+| Float64 / BigInt64 / BigUint64 | 8 bytes |

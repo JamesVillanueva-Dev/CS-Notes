@@ -1,1 +1,16 @@
 Object-oriented language, portable, common in enterprise apps, can be verbose
+
+Primitive type sizes:
+
+| Type | Size |
+| --- | --- |
+| byte | 1 byte |
+| boolean | JVM-dependent, commonly treated as 1 byte in arrays |
+| char | 2 bytes |
+| short | 2 bytes |
+| int | 4 bytes |
+| float | 4 bytes |
+| long | 8 bytes |
+| double | 8 bytes |
+
+Java primitive numeric sizes are fixed across platforms. Object/reference sizes depend on the JVM.

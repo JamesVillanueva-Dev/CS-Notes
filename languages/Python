@@ -1,1 +1,17 @@
 High-level language, easy to read, great for scripting and AI, slower than compiled languages
+
+Common object sizes in 64-bit CPython:
+
+| Type | Typical size |
+| --- | --- |
+| bool | 28 bytes |
+| int | 28 bytes for small integers, grows as the number gets bigger |
+| float | 24 bytes |
+| complex | 32 bytes |
+| empty str | 49 bytes, then grows with contents |
+| empty bytes | 33 bytes, then grows with contents |
+| empty list | 56 bytes, plus about 8 bytes per element slot |
+| empty tuple | 40 bytes, plus about 8 bytes per item |
+| empty dict | 64 bytes or more, grows by hash table capacity |
+
+Python variables hold references to objects. Sizes vary by Python implementation, version, and machine.

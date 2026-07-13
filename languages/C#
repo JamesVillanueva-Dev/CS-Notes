@@ -1,1 +1,16 @@
 Object-oriented language, good for Windows apps and Unity games, cleaner than C++ but less low-level
+
+Common type sizes:
+
+| Type | Size |
+| --- | --- |
+| bool | 1 byte |
+| byte / sbyte | 1 byte |
+| char | 2 bytes |
+| short / ushort | 2 bytes |
+| int / uint | 4 bytes |
+| long / ulong | 8 bytes |
+| nint / nuint | 4 bytes on 32-bit systems, 8 bytes on 64-bit systems |
+| float | 4 bytes |
+| double | 8 bytes |
+| decimal | 16 bytes |

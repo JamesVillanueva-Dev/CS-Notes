@@ -1,1 +1,18 @@
 Bare-bones language, really fast, easy to use, very memory unsafe
+
+Common type sizes:
+
+| Type | Size |
+| --- | --- |
+| char | 1 byte |
+| short | usually 2 bytes |
+| int | usually 4 bytes |
+| long | 4 bytes on Windows, usually 8 bytes on 64-bit Linux/macOS |
+| long long | usually 8 bytes |
+| float | usually 4 bytes |
+| double | usually 8 bytes |
+| long double | varies, often 8, 12, or 16 bytes |
+| pointer | 4 bytes on 32-bit systems, 8 bytes on 64-bit systems |
+| _Bool | usually 1 byte |
+
+C only guarantees minimum ranges for most integer types, so exact sizes can vary by platform and compiler. Use sizeof(type) to check.

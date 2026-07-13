@@ -1,1 +1,19 @@
 Simple compiled language, fast builds, good for servers and tools, less flexible than some languages
+
+Common type sizes:
+
+| Type | Size |
+| --- | --- |
+| bool | 1 byte |
+| byte / uint8 / int8 | 1 byte |
+| int16 / uint16 | 2 bytes |
+| int32 / uint32 / rune | 4 bytes |
+| int64 / uint64 | 8 bytes |
+| int / uint / uintptr | 4 bytes on 32-bit systems, 8 bytes on 64-bit systems |
+| float32 | 4 bytes |
+| float64 | 8 bytes |
+| complex64 | 8 bytes |
+| complex128 | 16 bytes |
+| string header | 16 bytes on 64-bit systems, plus string data |
+| slice header | 24 bytes on 64-bit systems, plus backing array |
+| pointer | 4 bytes on 32-bit systems, 8 bytes on 64-bit systems |
